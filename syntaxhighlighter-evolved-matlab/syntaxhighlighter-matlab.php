@@ -20,10 +20,10 @@
 	function syntaxhighlighter_matlab_regscript() 
 	{
 		wp_register_script( 	'syntaxhighlighter-brush-matlab', 
-									plugins_url('syntaxhighlighter-evolved-matlab/scripts/shBrushMatlab.js'),
-									array('syntaxhighlighter-core'),
-									'1.0.0'
-								);
+								plugins_url('syntaxhighlighter-evolved-matlab/scripts/shBrushMatlab.js'),
+								array('syntaxhighlighter-core'),
+								'1.0.0'
+				   		);
 	}
 
 	// Filter SyntaxHighlighter Evolved's language array
